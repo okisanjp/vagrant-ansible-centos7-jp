@@ -1,1 +1,1 @@
-{"virtualbox":{"/var/www":{"guestpath":"/var/www","hostpath":"C:/Users/okisa/workspace","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/okisa/workspace/vagrant-ansible-centos7-jp","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/var/www":{"guestpath":"/var/www","hostpath":"/Users/okisanjp/workspace","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/okisanjp/workspace/vagrant-ansible-centos7-jp","disabled":false,"__vagrantfile":true}}}

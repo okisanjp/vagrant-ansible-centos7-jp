@@ -5,7 +5,7 @@ VAGRANTFILE_API_VERSION = "2"
 SYNC_FOLDER_LOCAL = "~/workspace"
 SYNC_FOLDER_VM = "/var/www"
 VM_NETWORK_PRIVATE_IP = "192.168.33.10"
-VM_HOSTNAME = "centos7.2"
+VM_HOSTNAME = "localvm"
 VM_BOX = "bento/centos-7.2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|

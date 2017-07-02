@@ -1,0 +1,12 @@
+- name: install middlewares
+  become: True
+  yum: name={{ item }} state=latest
+  with_items:
+    - "@Development tools"
+    - git
+    - yum-plugin-changelog
+    - vim-enhanced
+
+- name: Set JST timezone
+  become: True
+  file: src=/usr/share/zoneinfo/Asia/Tokyo dest=/etc/localtime state=link force=yes

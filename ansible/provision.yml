@@ -1,6 +1,7 @@
 ---
 - hosts: local
   become: true
+  connection: local
   user: vagrant
   tasks:
     - name: install middlewares

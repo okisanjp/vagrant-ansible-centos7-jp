@@ -21,7 +21,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         virtualbox.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     end
 
-    config.vm.provision "ansible" do |ansible|
+    config.vm.provision "ansible_local" do |ansible|
         ansible.limit = 'all'
         ansible.playbook = "ansible/provision.yml"
         ansible.inventory_path = "ansible/hosts"
